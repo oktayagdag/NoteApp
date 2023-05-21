@@ -1,7 +1,13 @@
 # NoteApp
 
-![PROJEEKRANGORUNTUSU](https://github.com/oktayagdag/NoteApp/assets/120986651/cf23cbfb-e75a-4501-8244-0a1209fef9e3)
+![Ekran görüntüsü 2023-05-21 233601](https://github.com/oktayagdag/NoteApp/assets/120986651/94ee2803-6845-44d1-9bb5-0042aaaf68b9)
+
+
 
 NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. NoteApp ile notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
-NoteApp'ta istediğiniz isimile bir bölüm oluşturabilir, bölümün ismini sonradan değiştirebilir, yazı boyutunu büyütüp küçültebilir, yazı rengini ayarlayabilirsiniz.
+İşte NoteApp'ın bir kaç özelliği
+
+İstediğiniz isimle bir not sayfası oluşturma,
+Sayfayı yeniden adlandırma,silme,
+Metin boyutunu ayarlama, metin rengini ayarlama. 
