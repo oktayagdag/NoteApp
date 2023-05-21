@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="color.png" />
+    <None Remove="delete.png" />
+    <None Remove="icon.png" />
+    <None Remove="newpage.png" />
+    <None Remove="rename.png" />
+    <None Remove="save.png" />
+    <None Remove="size.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\color.png" />
+    <Resource Include="images\delete.png" />
+    <Resource Include="images\icon.png" />
+    <Resource Include="images\newpage.png" />
+    <Resource Include="images\rename.png" />
+    <Resource Include="images\save.png" />
+    <Resource Include="images\size.png" />
+  </ItemGroup>
+
+</Project>

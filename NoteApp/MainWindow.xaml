@@ -1,0 +1,118 @@
+﻿<Window x:Class="NoteApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoteApp"
+        mc:Ignorable="d"
+        Title="Not Defteri" Height="600" Width="800" Background="#FF2D2B2B">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Border Background="#FF383737" Grid.Column="0" Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0">
+                    <DockPanel VerticalAlignment="Center">
+                        <Image Source="images/icon.png" Height="24" Width="24" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                        <Label Content="Not Defteri" Foreground="White" Margin="5" VerticalAlignment="Center" FontSize="13" FontWeight="Bold"/>
+                    </DockPanel>
+                </Border>
+            </Grid>
+        </Border>
+
+        <Border Background="#FF383737" Grid.Column="1" Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Button  Background="#FF383737" Grid.Column="0">
+                    <StackPanel Orientation="Horizontal" Margin="4">
+                        <Image Source="images/newpage.png" Width="24" Height="24"/>
+                        <Label Foreground="White" Padding="0" VerticalAlignment="Center"  Margin="5" >Yeni Sayfa</Label>
+                    </StackPanel>
+                </Button>
+                <Button  Background="#FF383737" Grid.Column="1">
+                    <StackPanel Orientation="Horizontal" Margin="4">
+                        <Image  Source="images/save.png" Width="24" Height="24" />
+                        <Label Foreground="White" Padding="0" VerticalAlignment="Center" Margin="5">Kaydet</Label>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+
+        <Border Background="#FF383737" Grid.Column="0" Grid.Row="1">
+
+        </Border>
+
+        <Border Background="#FF383737" Grid.Column="1" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid  Grid.Row="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <Button  Background="#FF383737" Grid.Column="0">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/delete.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Sayfayı Sil</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="1">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/rename.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yeniden Adlandır</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="2">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/size.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yazı Boyutu</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="3">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/color.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yazı Rengi</Label>
+                            </StackPanel>
+                        </Button>
+
+                    </Grid>
+
+                </Grid>
+
+                <TextBox Grid.Row="1" Padding="10" Height="Auto" Width="Auto" Background="#FF2D2B2B" Foreground="White" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Stretch"/>
+            </Grid>
+        </Border>
+
+
+        <TextBlock Text="Versiyon 1.0.0"  HorizontalAlignment="Center"  Padding="3"  Grid.Row="1" VerticalAlignment="Bottom"  Foreground="White"/>
+        <StackPanel Grid.Row="1" Margin="0,10,0,0">
+            <RadioButton Content="Genel Muhasebe"  Height="50" Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
+            <RadioButton Content="Görsel Programlama"  Height="50" Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
+            <RadioButton Content="İnternet Programcılığı"  Height="50"  Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
+            <RadioButton Content="Ekonomi"  Height="50"  Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
+            <RadioButton Content="Veri Tabanı Sistemleri"  Height="50"  Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
