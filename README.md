@@ -4,6 +4,6 @@
 
 NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. NoteApp ile notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
-## İşte NoteApp'ın bir kaç özelliği
+## İşte NoteApp'ın Birkaç Özelliği
 
 İstediğiniz isimle bir not sayfası oluşturma, sayfayı yeniden adlandırma,silme, metin boyutunu ayarlama, metin rengini ayarlama. 
