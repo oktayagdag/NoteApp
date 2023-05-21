@@ -7,3 +7,6 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 ## İşte NoteApp'ın Birkaç Özelliği
 
 İstediğiniz isimle bir not sayfası oluşturma, sayfayı yeniden adlandırma,silme, metin boyutunu ayarlama, metin rengini ayarlama. 
+
+## Kullanılan Teknolojiler
+Visual Studio 2022 Sürümü
