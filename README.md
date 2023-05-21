@@ -6,6 +6,4 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 
 ## İşte NoteApp'ın bir kaç özelliği
 
-İstediğiniz isimle bir not sayfası oluşturma,
-Sayfayı yeniden adlandırma,silme,
-Metin boyutunu ayarlama, metin rengini ayarlama. 
+İstediğiniz isimle bir not sayfası oluşturma, sayfayı yeniden adlandırma,silme, metin boyutunu ayarlama, metin rengini ayarlama. 
