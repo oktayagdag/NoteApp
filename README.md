@@ -5,13 +5,13 @@
 NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. NoteApp ile notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
 
-## İşte NoteApp'ın Birkaç Özelliği
+## İşte NoteApp'ın Öne Çıkan Özellikleri
 
-- İstediğiniz isimle bir not sayfası oluşturma
-- Sayfayı yeniden adlandırma
-- Sayfayı silme
-- Metin boyutunu ayarlama
-- Metin rengini ayarlama
+- Kullanıcı dostu arayüz ve minimalist tasarım.
+- Hızlı ve etkili not oluşturma.
+- Not içeriğine göre sayfalar oluşturarak notları kategorize etme.
+- Kategorize edilen not sayfalarını, düzenleyebilme, yeniden adlandırabilme ve silebilme.
+- Metin boyutunu ayarlayabilme, metinleri renklendirebilme.
 
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
