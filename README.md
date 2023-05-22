@@ -12,13 +12,16 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 - Metin boyutunu ayarlama
 - Metin rengini ayarlama. 
 
-- Item Zed
-
 
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
 ## Tasarım Düzeni
-Uygulama 
+```javascript I'm A tab
+console.log('Code Tab A');
+```
+```javascript I'm tab B
+console.log('Code Tab B');
+```
 
 
