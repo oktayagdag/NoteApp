@@ -12,11 +12,8 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 – Metin boyutunu ayarlama
 – Metin rengini ayarlama. 
 
-– Birinci Etiket (İçi dolu daire olarak görünür.)
-— İkinci Etiket (Tire olarak görünür.)
-– Üçüncü Etiket (İçi boş daire olarak görünür.)
-– Dördüncü Etiket (Kare olarak görünür.)
-— Beşinci Etiket
+- Item Zed
+
 
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
