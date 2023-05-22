@@ -2,9 +2,9 @@
 
 # NoteApp
 
-Düşüncelerinizin ve notlarınızın güvende olduğu, organize bir şekilde saklanabileceği kullanıcı dostu bir not defteri uygulaması arıyorsanız, aradığınızı buldunuz! NoteApp, hayatınızı düzenlemek ve not alma deneyiminizi geliştirmek için tasarlanmış harika bir uygulama.
+Düşüncelerinizin ve notlarınızın güvende olduğu, organize bir şekilde saklanabileceği kullanıcı dostu bir not defteri uygulaması arıyorsanız, aradığınızı buldunuz! NoteApp ile not alma deneyiminizi geliştirmek için tasarlanmış harika bir uygulama.
 
-NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. NoteApp ile notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
+NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. Notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
 
 ## İşte NoteApp'ın Öne Çıkan Özellikleri
