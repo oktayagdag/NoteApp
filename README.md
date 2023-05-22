@@ -16,7 +16,7 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
-## Tasarım Düzeni
+## Ana Tasarım Düzeni
 Tüm arayüz ana 2 satır ve ana 2 sütun ızgaraya ayrılarak tasarlandı.
 Satırlardan ilki 40 yüksekliğe, ikincisi ise kalan tüm yüksekliğe sahip.
 Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
