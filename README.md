@@ -17,7 +17,9 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
 ## Tasarım Düzeni
-Arayüz 
+Tüm arayüz 2 satır ve 2 sütun ızgaraya ayrılarak tasarlandı.
+Satırlardan ilki 40 yüksekliğe, ikincisi ise kalan tüm yüksekliğe sahip.
+Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
 
 ```xml
 <Grid.RowDefinitions>
