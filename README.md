@@ -6,9 +6,16 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 
 ## İşte NoteApp'ın Birkaç Özelliği
 
-İstediğiniz isimle bir not sayfası oluşturma, sayfayı yeniden adlandırma,silme, metin boyutunu ayarlama, metin rengini ayarlama. 
+– İstediğiniz isimle bir not sayfası oluşturma, 
+– Sayfayı yeniden adlandırma
+– Sayfayı silme
+– Metin boyutunu ayarlama
+– Metin rengini ayarlama. 
 
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
+
+## Tasarım Düzeni
+Uygulama 
 
 
