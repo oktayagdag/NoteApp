@@ -17,18 +17,18 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
 ## Tasarım Düzeni
+Arayüz 
+
 ```xml
 <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="6*"/>
-        </Grid.ColumnDefinitions>
+   <RowDefinition Height="40"/>
+   <RowDefinition Height="*"/>
+</Grid.RowDefinitions>
+<Grid.ColumnDefinitions>
+  <ColumnDefinition Width="2*"/>
+  <ColumnDefinition Width="6*"/>
+</Grid.ColumnDefinitions>
 ```
-```javascript I'm tab B
-console.log('Code Tab B');
-```
+
 
 
