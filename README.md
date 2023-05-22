@@ -16,8 +16,6 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
-![solbolme](https://github.com/oktayagdag/NoteApp/assets/120986651/26d0a0ad-b664-4dd1-b92a-f33094f7c3da)
-
 
 ## Ana Tasarım Düzeni
 Tüm arayüz ana 2 satır ve ana 2 sütun ızgaraya ayrılarak tasarlandı.
