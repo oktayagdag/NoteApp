@@ -4,8 +4,6 @@
 
 NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. NoteApp ile notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
-## Kullanılan Teknolojiler
-C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
 ## İşte NoteApp'ın Birkaç Özelliği
 
@@ -14,6 +12,9 @@ C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 - Sayfayı silme
 - Metin boyutunu ayarlama
 - Metin rengini ayarlama
+
+## Kullanılan Teknolojiler
+C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
 ## Tasarım Düzeni
 Tüm arayüz ana 2 satır ve ana 2 sütun ızgaraya ayrılarak tasarlandı.
