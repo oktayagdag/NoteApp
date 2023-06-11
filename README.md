@@ -1,4 +1,4 @@
-![Ekran Alıntısı](https://github.com/oktayagdag/NoteApp/assets/120986651/afdab766-17ce-41ad-87b5-5640b615f85a)
+![Ekran Alıntısı](https://github.com/oktayagdag/NoteApp/assets/120986651/e9f7942f-c005-4d9e-b05c-5f8f33a4a35b)
 
 
 # NoteApp
