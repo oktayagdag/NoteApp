@@ -46,5 +46,27 @@ Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
 </Grid.ColumnDefinitions>
 ```
 
+## Üst Bilgi Çubuğu (Header Bar):
+-İlk border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
+-İçinde bir DockPanel bulunur. DockPanel, içindeki öğeleri yatay olarak hizalar.
+-DockPanel içinde bir resim (Image) ve bir etiket (Label) yer alır.
+-Resim, "images/icon.png" dosyasından alınır ve 24x24 boyutuna sahiptir.
+-Etiket, "Not Defteri" metnini içerir ve beyaz renkte görüntülenir.
+
+```xml
+  <Border Background="#FF383737" Grid.Column="0" Grid.Row="0">
+     <Grid>
+         <Grid.RowDefinitions>
+             <RowDefinition/>
+               </Grid.RowDefinitions>
+                 <Border Grid.Row="0">
+                    <DockPanel VerticalAlignment="Center">
+                        <Image Source="images/icon.png" Height="24" Width="24" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                        <Label Content="Not Defteri" Foreground="White" Margin="5" VerticalAlignment="Center" FontSize="13" bFontWeight="Bold"/>
+                    </DockPanel>
+         </Border>
+     </Grid>
+</Border>
+```
 
 
