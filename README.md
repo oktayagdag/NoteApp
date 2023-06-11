@@ -98,7 +98,7 @@ Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
         </Border>
 ```
 
-## Not Alanı (Note Area)::
+## Not Alanı (Note Area):
 - Üçüncü border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
 - İçinde bir Grid yer alır. Grid, iki satırlı bir düzen sağlar.
 - İlk satır, düğmelerden oluşan bir Grid içerir:
