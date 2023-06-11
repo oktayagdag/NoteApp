@@ -68,5 +68,34 @@ Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
      </Grid>
 </Border>
 ```
+## Araç Çubuğu (Toolbar):
+- İkinci border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
+- İçinde bir Grid yer alır. Grid, iki sütunlu bir düzen sağlar.
+- İki düğme (Button) içerir:
+ - İlk düğme, "images/newpage.png" resmiyle birlikte "Yeni Sayfa" metnini içeren bir StackPanel içerir.
+ - İkinci düğme, "images/save.png" resmiyle birlikte "Kaydet" metnini içeren bir StackPanel içerir.
+
+```xml
+ <Border Background="#FF383737" Grid.Column="1" Grid.Row="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Button  Background="#FF383737" Grid.Column="0">
+                    <StackPanel Orientation="Horizontal" Margin="4">
+                        <Image Source="images/newpage.png" Width="24" Height="24"/>
+                        <Label Foreground="White" Padding="0" VerticalAlignment="Center"  Margin="5" >Yeni Sayfa</Label>
+                    </StackPanel>
+                </Button>
+                <Button  Background="#FF383737" Grid.Column="1">
+                    <StackPanel Orientation="Horizontal" Margin="4">
+                        <Image  Source="images/save.png" Width="24" Height="24" />
+                        <Label Foreground="White" Padding="0" VerticalAlignment="Center" Margin="5">Kaydet</Label>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Border>
+```
 
 
