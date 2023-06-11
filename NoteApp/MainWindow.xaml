@@ -52,9 +52,7 @@
             </Grid>
         </Border>
 
-        <Border Background="#FF383737" Grid.Column="0" Grid.Row="1">
-
-        </Border>
+        <Border Background="#FF383737" Grid.Column="0" Grid.Row="1"/>
 
         <Border Background="#FF383737" Grid.Column="1" Grid.Row="1">
             <Grid>
@@ -95,9 +93,7 @@
                                 <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yazı Rengi</Label>
                             </StackPanel>
                         </Button>
-
                     </Grid>
-
                 </Grid>
 
                 <TextBox Grid.Row="1" Padding="10" Height="Auto" Width="Auto" Background="#FF2D2B2B" Foreground="White" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Stretch"/>
@@ -105,7 +101,7 @@
         </Border>
 
 
-        <TextBlock Text="Versiyon 1.0.0"  HorizontalAlignment="Center"  Padding="3"  Grid.Row="1" VerticalAlignment="Bottom"  Foreground="White"/>
+        <TextBlock Text="Versiyon 2.0.0"  HorizontalAlignment="Center"  Padding="3"  Grid.Row="1" VerticalAlignment="Bottom"  Foreground="White"/>
         <StackPanel Grid.Row="1" Margin="0,10,0,0">
             <RadioButton Content="Genel Muhasebe"  Height="50" Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
             <RadioButton Content="Görsel Programlama"  Height="50" Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
@@ -113,6 +109,5 @@
             <RadioButton Content="Ekonomi"  Height="50"  Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
             <RadioButton Content="Veri Tabanı Sistemleri"  Height="50"  Foreground="White" Style="{StaticResource MenuButtonTheme}"/>
         </StackPanel>
-
     </Grid>
 </Window>
