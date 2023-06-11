@@ -7,6 +7,8 @@ Düşüncelerinizin ve notlarınızın güvende olduğu, organize bir şekilde s
 
 NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda kalmadan, not alma deneyiminizi dijital bir seviyeye taşıyın. Hayatınızı düzenleyin, verimliliğinizi artırın ve önemli bilgileri her zaman yanınızda bulundurun. Notlarınızı tutmanın ve organize etmenin keyfini çıkarın!
 
+Tasarım düzeni ile üst bilgi çubuğunda uygulama adını, araç çubuğunda yeni sayfa oluşturma ve kaydetme gibi temel işlevleri, not alanında metin girişi, alt bilgi alanında uygulama sürüm bilgisini ve ders menüsünde seçilebilecek farklı ders seçeneklerini sağlar. Tasarım, arka plan rengi, kenarlık ve öğelerin hizalaması gibi stil özellikleriyle görsel olarak etkileyici bir görünüm sunar.
+
 
 ## İşte NoteApp'ın Öne Çıkan Özellikleri
 
