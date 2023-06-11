@@ -98,4 +98,61 @@ Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
         </Border>
 ```
 
+## Not Alanı (Note Area)::
+- Üçüncü border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
+- İçinde bir Grid yer alır. Grid, iki satırlı bir düzen sağlar.
+- İlk satır, düğmelerden oluşan bir Grid içerir:
+ - Dört düğme içeren bir alt Grid yer alır. Bu düğmeler, sayfa silme, sayfa adını değiştirme, yazı boyutu ve yazı rengi gibi işlevleri temsil eder.
+ - Her düğme bir resim ve bir etiket içeren bir StackPanel ile stilize edilmiştir.
+- İkinci satır, metin giriş alanı olarak TextBox öğesini içerir:
+ - TextBox, 10 birimlik iç boşluk (Padding), arka plan rengi (#FF2D2B2B), yazı rengi (Foreground) olarak beyaz ve metin kaydırma (TextWrapping) özelliklerine sahiptir.
+
+```xml
+   <Border Background="#FF383737" Grid.Column="1" Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid  Grid.Row="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="150"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <Button  Background="#FF383737" Grid.Column="0">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/delete.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Sayfayı Sil</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="1">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/rename.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yeniden Adlandır</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="2">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/size.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yazı Boyutu</Label>
+                            </StackPanel>
+                        </Button>
+                        <Button  Background="#FF383737" Grid.Column="3">
+                            <StackPanel Orientation="Horizontal" Margin="4">
+                                <Image Source="images/color.png"/>
+                                <Label Foreground="White" Padding="0" VerticalAlignment="Center">Yazı Rengi</Label>
+                            </StackPanel>
+                        </Button>
+                    </Grid>
+                </Grid>
+
+                <TextBox Grid.Row="1" Padding="10" Height="Auto" Width="Auto" Background="#FF2D2B2B" Foreground="White" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Stretch"/>
+            </Grid>
+        </Border>
+```
+
 
