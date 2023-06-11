@@ -16,6 +16,14 @@ NoteApp ile kağıt üzerinde notlarınızı taşımak veya kaybetmek zorunda ka
 - Kategorize edilen not sayfalarını, düzenleyebilir, yeniden adlandırabilir veya silebilirsiniz.
 - Metin boyutunu ayarlayabilir, metinleri renklendirebilebilirsiniz.
 
+## Neden Not Defteri'ni tercih etmelisiniz?
+- **Kolay Kullanım**: Not Defteri, kullanıcı dostu bir arayüzle tasarlanmıştır, bu da notlarınızı hızla oluşturmanızı ve düzenlemenizi sağlar. Zaman kaybetmeden önemli bilgilerinizi kaydedebilirsiniz.
+- **Organize Etme**: Notlarını kategorilere veya etiketlere göre düzenlemek, daha hızlı erişim sağlamanızı sağlar. Karmaşayı unutun, notlarınızı kolayca bulun!
+- **Biçimlendirme Seçenekleri**: Zengin metin düzenleme araçları sayesinde notlarınızı biçimlendirebilir, renklendirebilir ve önemli bölümleri vurgulayabilirsiniz. Daha okunabilir ve düzenli bir not alma deneyimi için idealdir.
+- **Güvenli ve Güvenilir**: Not Defteri, notlarınızın güvende kalmasını sağlamak için güçlü bir şifreleme ve parola koruma özelliği sunar. Hassas bilgilerinizin güvenliğini sağlayın.
+
+
+
 ## Kullanılan Teknolojiler
 C# kodlama dili, Xaml tasarım dili kullanılarak geliştirildi.
 
