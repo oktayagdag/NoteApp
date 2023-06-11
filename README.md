@@ -47,11 +47,11 @@ Sütunlardan ilki tüm genişliğin 2/8'ine, diğeri ise 6/8 ine sahip.
 ```
 
 ## Üst Bilgi Çubuğu (Header Bar):
--İlk border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
--İçinde bir DockPanel bulunur. DockPanel, içindeki öğeleri yatay olarak hizalar.
--DockPanel içinde bir resim (Image) ve bir etiket (Label) yer alır.
--Resim, "images/icon.png" dosyasından alınır ve 24x24 boyutuna sahiptir.
--Etiket, "Not Defteri" metnini içerir ve beyaz renkte görüntülenir.
+- İlk border etiketi (#FF383737 arka plan rengi) bu bölümü oluşturur.
+- İçinde bir DockPanel bulunur. DockPanel, içindeki öğeleri yatay olarak hizalar.
+- DockPanel içinde bir resim (Image) ve bir etiket (Label) yer alır.
+- Resim, "images/icon.png" dosyasından alınır ve 24x24 boyutuna sahiptir.
+- Etiket, "Not Defteri" metnini içerir ve beyaz renkte görüntülenir.
 
 ```xml
   <Border Background="#FF383737" Grid.Column="0" Grid.Row="0">
